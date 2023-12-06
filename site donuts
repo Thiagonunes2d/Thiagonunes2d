@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donut House</title>
+</head>
+<body>
+    <div class="donuts-background">
+        <img class="background-img" src="imgs/donuts-background.jpeg" alt="">
+
+        <div class="donuts">
+            <h1>Donuts</h1>
+            <img class="radius-donut" src="imgs/radius-donut.jpeg" alt="">
+        </div>
+
+        <div class="donuts best-donuts">
+            <h2>Os Melhores Donuts</h2>
+        </div>
+
+        <p class="paragraph-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quaerat laboriosam alias obcaecati fugit? Eveniet delectus alias repellat? Nisi temporibus quia fugiat vitae recusandae sunt consequatur qui distinctio, quas ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique ipsam maxime harum animi eius reprehenderit voluptates aperiam eveniet laboriosam? Nobis aliquid animi qui vero asperiores non ipsam eos cum?</p>
+
+        <div class="donuts best-donuts options">
+            <h2>OPÇÕES</h2>
+        </div>
+
+        <div class="option-donut">
+
+            <ul>
+                <li class="option-item">
+                    <h3>Opção 1</h3>
+                    <img class="op-donuts" src="imgs/option-donut.jpg" alt="">
+                </li>
+                
+                <li class="option-item">
+                    <h3>Opção 2</h3>
+                    <img class="op-donuts" src="imgs/option-donut.jpg" alt="">
+                </li>
+
+                <li class="option-item">
+                    <h3>Opção 3</h3>
+                    <img class="op-donuts" src="imgs/option-donut.jpg" alt="">
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+*{
+    margin: 0;
+    padding: 0;
+    color: #7f1d6a;
+    font-family: cursive;
+}
+body{
+    background-image: url('donuts-background.jpeg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-img{
+    width: 100%;
+    
+}
+.donuts-background{
+    height: auto;
+    position: relative; top: 0px; left: 0px;
+}
+.donuts{
+    font-size: 20px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
+}
+.radius-donut{
+    border-radius: 50%;
+    width: 10%;
+    height: 60%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 18px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 45%;
+}
+.option-donut{
+    position: absolute; top: 52%;
+}
+ul{
+    background: #ffbfcd;
+    border-radius: 15%;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 100px;
+    width: 125px;
+    border-radius: 20%;
+}
+
+@media (max-width: 1080px){
+.donuts{
+    font-size: 16px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
+}
+.radius-donut{
+    border-radius: 50%;
+    width: 7%;
+    height: 50%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 30%;
+    font-size: 14px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 45%;
+    font-size: 12px;
+}
+.option-donut{
+    position: absolute; top: 55%;
+}
+ul{
+    background: #ffbfcd;
+    font-size: 12px;
+    border-radius: 15%;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 60px;
+    width: 78px;
+    border-radius: 20%;
+}
+}
+
+@media (max-width: 768px){
+.donuts{
+    font-size: 14px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
+}
+.radius-donut{
+    border-radius: 50%;
+    width: 9%;
+    height: 45%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 12px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 50%;
+    font-size: 11px;
+}
+.option-donut{
+    position: absolute; top: 58%;
+}
+ul{
+    background: #ffbfcd;
+    font-size: 11px;
+    border-radius: 15%;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 50px;
+    width: 62px;
+    border-radius: 20%;
+}
+}
